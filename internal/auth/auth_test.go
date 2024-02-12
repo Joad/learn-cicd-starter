@@ -14,7 +14,7 @@ func TestValidAPIKey(t *testing.T) {
 		t.Fatal("Failed to get valid key", err)
 	}
 
-	if key != "testKey1" {
+	if key != "testKey" {
 		t.Fatal("Wrong key extracted")
 	}
 }
